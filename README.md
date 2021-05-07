@@ -10,10 +10,21 @@
 ## Project Structure
 
 ```bash
+
+public
+├── img
+│   ├── All Img ....
+├── favicon.ico
+├── index.html
+├── manifest.json
+├── robots.txt
+│
+│
 src
 ├── App.js
 ├── components
 │   ├── Header.js
+│   ├── Content.js
 │   ├── Footer.js
 │   ├── fonts
 │   │   ├── Font.js
@@ -22,12 +33,13 @@ src
 │   │   └── TrendingFonts.js
 │   └── selection
 │       ├── FontSize.js
+│       ├── SelectFont.js
 │       └── Text.js
 ├── context
 │   └── Context.js
-├── index.js
-├── serviceWorker.js
-└── setupTests.js
+└── pages
+│    └── Home.js
+└── index.js
 ```
 
 ## Install
